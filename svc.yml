@@ -1,5 +1,6 @@
 apiversion: v1
 kind: Service
 Metadata:
+  name: nignxsvc
 
 Spec:
