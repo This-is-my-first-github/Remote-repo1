@@ -2,5 +2,9 @@ apiversion: v1
 kind: Service
 Metadata:
   name: nignxsvc
+   labels:
+  app: nignxsvc
+  env: prod
+  namespace: prod
 
 Spec:
